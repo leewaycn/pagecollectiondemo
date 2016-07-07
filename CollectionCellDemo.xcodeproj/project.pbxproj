@@ -13,6 +13,8 @@
 		2FDC8FE51D2DFC60005D2D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC8FE31D2DFC60005D2D6E /* Main.storyboard */; };
 		2FDC8FE71D2DFC60005D2D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC8FE61D2DFC60005D2D6E /* Assets.xcassets */; };
 		2FDC8FEA1D2DFC60005D2D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC8FE81D2DFC60005D2D6E /* LaunchScreen.storyboard */; };
+		2FDC8FF31D2DFC8D005D2D6E /* ViewdemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC8FF21D2DFC8D005D2D6E /* ViewdemoViewController.m */; };
+		2FDC8FF61D2DFECF005D2D6E /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC8FF51D2DFECF005D2D6E /* DemoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2FDC8FE61D2DFC60005D2D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FDC8FE91D2DFC60005D2D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FDC8FEB1D2DFC60005D2D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDC8FF11D2DFC8D005D2D6E /* ViewdemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewdemoViewController.h; sourceTree = "<group>"; };
+		2FDC8FF21D2DFC8D005D2D6E /* ViewdemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewdemoViewController.m; sourceTree = "<group>"; };
+		2FDC8FF41D2DFECF005D2D6E /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		2FDC8FF51D2DFECF005D2D6E /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				2FDC8FDE1D2DFC60005D2D6E /* AppDelegate.m */,
 				2FDC8FE01D2DFC60005D2D6E /* ViewController.h */,
 				2FDC8FE11D2DFC60005D2D6E /* ViewController.m */,
+				2FDC8FF11D2DFC8D005D2D6E /* ViewdemoViewController.h */,
+				2FDC8FF21D2DFC8D005D2D6E /* ViewdemoViewController.m */,
+				2FDC8FF41D2DFECF005D2D6E /* DemoCollectionViewCell.h */,
+				2FDC8FF51D2DFECF005D2D6E /* DemoCollectionViewCell.m */,
 				2FDC8FE31D2DFC60005D2D6E /* Main.storyboard */,
 				2FDC8FE61D2DFC60005D2D6E /* Assets.xcassets */,
 				2FDC8FE81D2DFC60005D2D6E /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			files = (
 				2FDC8FE21D2DFC60005D2D6E /* ViewController.m in Sources */,
 				2FDC8FDF1D2DFC60005D2D6E /* AppDelegate.m in Sources */,
+				2FDC8FF31D2DFC8D005D2D6E /* ViewdemoViewController.m in Sources */,
+				2FDC8FF61D2DFECF005D2D6E /* DemoCollectionViewCell.m in Sources */,
 				2FDC8FDC1D2DFC60005D2D6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
